@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    color:white;
+    transition:0.4s;
+}
+
+.dark{
+    background:linear-gradient(135deg,#141e30,#243b55);
+}
+
+header{
+    text-align:center;
+    padding:20px;
+    font-size:26px;
+    font-weight:bold;
+}
+
+.container{
+    max-width:800px;
+    margin:auto;
+    padding:20px;
+}
+
+.lecture{
+    background:white;
+    color:black;
+    padding:15px;
+    margin-bottom:12px;
+    border-radius:10px;
+    text-decoration:none;
+    display:block;
+    transition:0.2s ease;
+    font-weight:bold;
+}
+
+.lecture:hover{
+    transform:scale(1.02);
+    background:#f3f3f3;
+}
+
+.empty-message{
+    text-align:center;
+    margin-top:30px;
+    opacity:0.8;
+}
+
+button{
+    display:block;
+    margin:10px auto;
+    padding:8px 18px;
+    border:none;
+    border-radius:6px;
+    background:#111;
+    color:white;
+    cursor:pointer;
+}
